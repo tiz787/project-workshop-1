@@ -1024,3 +1024,55 @@ footer.fh5co-footer .social-links li a {
   transition: transform 0.3s ease;
   transform: scale(1.05);
 }
+
+.skills-section {
+  background-color: #00a6ff3e;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.skills-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.skills-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.skills-header h2 {
+  color: #333;
+  font-family: "Geom", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.skills-header p {
+  color: #666;
+  font-family: "Geom", sans-serif;
+  font-size: 1.1rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skill-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 200px;
+}
+
+.skill-card h4 {
+  font-family: "Geom", sans-serif;
+  color: #333;
+  margin-top: 10px;
+}
