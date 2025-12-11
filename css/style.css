@@ -1139,3 +1139,50 @@ footer.fh5co-footer .social-links li a {
   color: #0e5bbf;
   text-decoration: none;
 }
+
+.fun-facts-section {
+  background: linear-gradient(to right, #1270e4, #58c0ff);
+  color: rgb(255, 255, 255);
+  padding: 60px 0;
+  width: 100%;
+}
+
+.fun-facts-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.fun-facts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.fact-item {
+  flex: 1;
+  min-width: 200px;
+  margin: 20px 0;
+}
+
+.fact-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.fact-number {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: "Geom", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.fact-label {
+  text-transform: uppercase;
+  font-family: "Geom", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #d6d6d6;
+}
