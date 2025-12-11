@@ -1076,3 +1076,66 @@ footer.fh5co-footer .social-links li a {
   color: #333;
   margin-top: 10px;
 }
+
+.error-page-body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #1270e4, #58c0ff);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.error-page-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.error-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-code {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Geom", sans-serif;
+  margin-bottom: 0;
+}
+
+.error-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Geom", sans-serif;
+}
+
+.error-message {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  font-family: "Geom", sans-serif;
+}
+
+.home-button {
+  display: inline-block;
+  background-color: #f8f9fa;
+  color: #1270e4;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-family: "Geom", sans-serif;
+}
+
+.home-button:hover {
+  background-color: #e2e6ea;
+  color: #0e5bbf;
+  text-decoration: none;
+}
