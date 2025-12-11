@@ -86,54 +86,13 @@ video {
   margin: 0;
   padding: 0;
 }
-
-@font-face {
-  font-family: "Gotham-Narrow-Book";
-  src: url(../fonts/gotham-narrow-book.otf);
-}
-@font-face {
-  font-family: "Gotham-Narrow-Black";
-  src: url(../fonts/gotham-narrow-black.otf);
-}
-@font-face {
-  font-family: "Gotham-Narrow-Light";
-  src: url(../fonts/gotham-narrow-light.otf);
-}
-@font-face {
-  font-family: "Larsseit";
-  src: url(../fonts/Larsseit.ttf);
-}
-@font-face {
-  font-family: "Larsseit-Bold";
-  src: url(../fonts/Larsseit-Bold.ttf);
-}
-@font-face {
-  font-family: "Larsseit-Light";
-  src: url(../fonts/Larsseit-Light.ttf);
-}
-@font-face {
-  font-family: "Larsseit-Medium";
-  src: url(../fonts/Larsseit-Medium.ttf);
-}
-@font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url(../fonts/Gilroy-ExtraBold.otf);
-}
-@font-face {
-  font-family: "Gilroy-Light";
-  src: url(../fonts/Gilroy-Light.otf);
-}
-@font-face {
-  font-family: "segoeui";
-  src: url(../fonts/segoeui.ttf);
-}
 @media (min-width: 1380px) {
   .container {
     max-width: 1340px;
   }
 }
 body {
-  font-family: "Larsseit";
+  font-family: "Geom", sans-serif;
   color: #aeafb9;
   overflow-x: hidden;
 }
@@ -149,9 +108,9 @@ h2::after,
 .fh5co-news .owl-carousel2 .owl-dots .active span,
 .form-box h4::after,
 .form-box button {
-  background-image: -moz-linear-gradient(0deg, #1270e4 0%, #58c0ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #1270e4 0%, #58c0ff 100%);
-  background-image: -ms-linear-gradient(0deg, #1270e4 0%, #58c0ff 100%);
+  background-image: -moz-linear-gradient(0deg, #40099f 0%, #52159b 100%);
+  background-image: -webkit-linear-gradient(0deg, #55029d 0%, #342d9d 100%);
+  background-image: -ms-linear-gradient(0deg, #4e0567 0%, #6a23dc 100%);
 }
 
 nav.fixed-top {
@@ -166,7 +125,7 @@ nav.fixed-top {
 }
 .header .container p.follow {
   color: #ffffff;
-  font-family: "segoeui";
+  font-family: "Geom", sans-serif;
   margin-bottom: 10px;
 }
 .header .home-bg {
@@ -180,7 +139,7 @@ nav.fixed-top {
   top: 383px;
 }
 .header .frst-hrd {
-  font-family: "Gotham-Narrow-Light";
+  font-family: "Geom", sans-serif;
   background-color: rgba(26, 26, 26, 0.29);
   border-radius: 20px;
   max-width: 300px;
@@ -192,14 +151,14 @@ nav.fixed-top {
 }
 .header h5 {
   font-size: 70px;
-  font-family: "Larsseit-Bold";
+  font-family: "Geom", sans-serif;
   text-transform: uppercase;
   max-width: 600px;
   margin: 10px auto;
   text-align: center;
 }
 .header h5 + p {
-  font-family: "Gotham-Narrow-Book";
+  font-family: "Geom", sans-serif;
   font-size: 20px;
   color: #ffffff;
 }
@@ -298,7 +257,7 @@ nav.fixed-top {
   margin-top: -50px;
   color: #fff;
   font-size: 16px;
-  font-family: "Gotham-Narrow-Book";
+  font-family: "Geom", sans-serif;
 }
 .scroll-button a {
   background: #ffffff;
@@ -350,7 +309,7 @@ nav.fixed-top {
 }
 .menu-links li a {
   color: #ffffff;
-  font-family: "Gotham-Narrow-Book";
+  font-family: "Geom", sans-serif;
   padding: 40px 15px !important;
   border-top: 5px solid transparent;
 }
@@ -398,7 +357,7 @@ nav.fixed-top {
 }
 
 h2 {
-  font-family: "Larsseit-Bold";
+  font-family: "Geom", sans-serif;
   font-size: 33px;
   color: #1e1f29;
 }
@@ -420,7 +379,7 @@ h2::after {
 }
 
 p {
-  font-family: "Larsseit";
+  font-family: "Geom", sans-serif;
   color: #aeafb9;
   font-size: 14.583px;
   line-height: 1.143;
@@ -520,7 +479,7 @@ a {
 
 .read-more {
   color: #fff !important;
-  font-family: "Larsseit";
+  font-family: "Geom", sans-serif;
   font-size: 14px;
   padding: 10px 25px;
   border-radius: 20px;
@@ -554,7 +513,7 @@ a {
   padding-bottom: 0;
 }
 .fh5co-portfolio h3 {
-  font-family: "Larsseit-Medium";
+  font-family: "Geom", sans-serif;
   color: #1e1f29;
   text-transform: uppercase;
   line-height: 1.2;
@@ -735,7 +694,7 @@ a {
 }
 .bottom-buttons a {
   font-size: 14.583px;
-  font-family: "Larsseit";
+  font-family: "Geom", sans-serif;
   background: #ffffff;
   display: block;
   padding: 8px 20px 20px 20px;
@@ -818,7 +777,7 @@ a {
   margin-bottom: 50px;
 }
 .fh5co-news h5 {
-  font-family: "Larsseit-Medium";
+  font-family: "Geom", sans-serif;
   color: #1e1f29;
   font-size: 21px;
 }
@@ -908,7 +867,7 @@ footer.fh5co-footer h2 {
   margin-top: 80px;
 }
 footer.fh5co-footer .light {
-  font-family: "Larsseit-Light";
+  font-family: "Geom", sans-serif;
   font-size: 18px;
 }
 footer.fh5co-footer p {
@@ -923,12 +882,12 @@ footer.fh5co-footer p span.phone {
 }
 footer.fh5co-footer p b {
   color: #1e1f29;
-  font-family: "Gilroy-Light";
+  font-family: "Geom", sans-serif;
   font-weight: 700;
   font-size: 16px;
 }
 footer.fh5co-footer h3 {
-  font-family: "Larsseit-Bold";
+  font-family: "Geom", sans-serif;
   font-size: 33px;
   color: #1e1f29;
   text-transform: uppercase;
@@ -964,7 +923,7 @@ footer.fh5co-footer .social-links li a {
   padding: 50px;
 }
 .form-box h4 {
-  font-family: "Larsseit-Bold";
+  font-family: "Geom", sans-serif;
   font-size: 33px;
   color: #1e1f29;
   text-transform: uppercase;
@@ -999,7 +958,7 @@ footer.fh5co-footer .social-links li a {
 .form-box button {
   color: #fff;
   font-size: 14px;
-  font-family: "Larsseit";
+  font-family: "Geom", sans-serif;
   padding: 13px 35px;
   border-radius: 40px;
   border: none;
@@ -1017,7 +976,7 @@ footer.fh5co-footer .social-links li a {
   background: #f7f7f7;
   padding: 40px 0;
   display: block;
-  font-family: "Gilroy-Light";
+  font-family: "Geom", sans-serif;
 }
 
 .parallax-window {
@@ -1052,4 +1011,16 @@ footer.fh5co-footer .social-links li a {
     display: inline-block;
     float: none !important;
   }
+}
+
+.portfolioContainer .gallary img {
+  transition: transform 0.3s ease;
+}
+.portfolioContainer .gallary:hover img {
+  transform: scale(1.05);
+}
+
+.img-fluid:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
 }
